@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/steven-zhoulin/config-repo
+          search-paths: licservice,orgservice
+          username: 21550566@qq.com
+          password: Topsail_2008
